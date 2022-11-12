@@ -5,9 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        input {
+            font-size: 20px;
+            border: 3px solid pink;
+            outline: 0;
+            padding: 5px 15px;
+            width: 300px;
+            height: 30px;
+            border-radius: 3%;
+            margin: 15px 0 0 30px;
+       
+            
+        }
+        button {
+            font-size: 20px;
+            padding: 8px 30px;
+            color: white;
+            background-color: orange;
+            border: 3px solid orange;
+            margin: 15px 30px;
+            outline: orange;
+            border-radius: 3%;
+        }
+        .info {
+            background-color: pink;
+            color: black;
+            font-size: 20px;
+            width: 30%;
+            margin-top: 15px;
+            margin-left: 30px;
+            padding: 5px 0;
+            font-weight: bold;
+           text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+
+    <!-- bài 1 -->
+    <h2>Bài 1: Tìm số nguyên dương nhỏ nhất</h2>
+    <button onclick="findNum()">Tìm số</button>
+    <div id="show_1"></div>
+
+
+    <!-- bài 2 -->
+    <h2>Bài 2: Viết chương trình nhập 2 số, tính tổng hàm<menu type="context"></menu></h2>
+    <input id="numX" type="number" placeholder="Nhập số x">
+    <input id="numNu" type="number" placeholder="Nhập số n">
+    <button onclick="total()">Tính tổng</button>
+    <div id="show_2"></div>
+
      <script src="./index.js"></script>
 </body>
 </html>
